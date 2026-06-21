@@ -1,0 +1,31 @@
+House Price Prediction – Project Summary
+Student Details
+
+Name: Arnav Singh
+College: Graphic Era Deemed to be University
+
+Project Objective
+
+The objective of this project was to develop a machine learning model capable of predicting house prices based on various property features such as area, number of bedrooms, bathrooms, parking availability, and location-related attributes. The project aimed to assist buyers and sellers in estimating fair property values using data-driven insights.
+
+Dataset
+
+The Housing Prices Dataset was obtained from Kaggle and contains information about residential properties, including physical characteristics and amenities. The dataset was cleaned and preprocessed before model training.
+
+Methodology
+Loaded and explored the dataset using Pandas.
+Removed duplicate records and handled missing values.
+Converted categorical variables into numerical form using one-hot encoding.
+Split the data into training (80%) and testing (20%) sets.
+Trained two regression models:
+Linear Regression
+Random Forest Regressor
+Evaluated performance using MAE, RMSE, and R² Score.
+Key Findings
+House area was one of the strongest factors influencing price.
+Features such as bathrooms, parking spaces, air conditioning, and preferred area also significantly impacted property values.
+Random Forest Regressor achieved better prediction accuracy than Linear Regression.
+The model was able to predict house prices with good accuracy and can be useful for real estate decision-making.
+Recommendation
+
+Real estate businesses should focus on property size, location quality, and essential amenities when pricing houses. Machine learning models can support more accurate and consistent pricing strategies
